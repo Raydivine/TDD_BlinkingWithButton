@@ -1,14 +1,13 @@
 #include "unity.h"
 #include "ButtonSM.h"
+#include "Message.h"
+#include "Button.h"
 
-void setUp(void)
+void setUp(void){}
+
+void tearDown(void){}
+
+void test_module_generator_needs_to_be_implemented(void)
 {
-}
-
-void tearDown(void)
-{
-}
-
-void test_message_passing_send_a_message_LedState_should_to_Led_ON(void){
-	TEST_IGNORE_MESSAGE("Implement me!");
+	//TEST_IGNORE_MESSAGE("Implement me!");
 }
