@@ -8,13 +8,14 @@ void buttonInitData(ButtonData *data)  {
 }
 
 void buttonSM(ButtonData *data) {
-  switch(data->state)  {
-    case RELEASE:   if(isButtonPressed()){
-                      msg = CHANGE_MODE;
-                      data->state = PRESS;
-                      printf("button is pressed\n");
-                    }
-                    break;
+  switch(data->state){
+    case RELEASE:   
+      if(isButtonPressed()){
+        msg = CHANGE_MODE;
+        data->state = PRESS;
+        printf("button is pressed\n");
+      }
+      break;
 
     case PRESS:
       break;
